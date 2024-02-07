@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    
+    background-image:url(./imiges/baner.jpg);
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.modelproject{
+    background-color: rgb(163, 188, 210);
+    width: 30%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 300px,300px;
+    gap: 30px;
+    border-radius: 30px;
+
+}
+.modelproject h1{
+    font-size: 30px;
+  
+
+}
+.btn{
+    background-color: black;
+    color: rgb(30, 47, 61);
+}
+@media(max-width:710px)
+{
+    .modelproject{
+
+        width: 50%;
+      
+    }
+    #mdd{
+        width: 50%;
+     
+        position:absolute ;
+        right:25vw;
+    }
+
+}
+@media(max-width:410px)
+{
+    .modelproject{
+
+        width: 70%;
+        right:30vw;
+      
+    }
+    #mdd{
+        width: 70%;
+        position:absolute ;
+        right:15vw;
+
+    }
+
+}
+@media(max-width:350px)
+{
+    #mdd{
+        width: 90%;
+        position:absolute ;
+        right:5vw;
+      }
+    .modelproject{
+
+        width: 90%;
+      
+    }
+
+
+
+}
+body{
+    background-color: blue;
+}
+
+.md{
+    background-color: white;
+    width: 30%;
+    height: 50vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  
+ 
+   position:absolute ;
+   right:35vw;
+   
+   display:none; 
+}
+
+ .icon{
+   display: flex;
+   justify-content: end;
+
+}  
+.tt{
+    
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+   
+}
